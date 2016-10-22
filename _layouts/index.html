@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <meta content='{{ site.title }}' property='og:title' />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta content="blog" property="og:type" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Liucheng Xu</title>
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
+    <link href='/assets/css/bootstrap.min.css' rel='stylesheet' type='text/css' />
+    <link href='/assets/css/bootstrap-theme.min.css' rel='stylesheet' type='text/css' />
+  </head>
+  <body>
+    {% include nav.html %}
+    <div class="row" style="padding-top: 70px">
+      <div class="container center-block">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 col-sm-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Blog</h3>
+            </div>
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+    $(document).ready(function(){
+      $("ul li").hover(function(){
+        $(this).css("background-color","#f3f3f3");
+      },function(){
+        $(this).css("background-color","#fff");
+      });
+    });
+    $("ul li").click(function() {
+      $("a",this)[0].click();
+    });
+    </script>
+    {% include google-analytics.html %}
+  </body>
+</html>
