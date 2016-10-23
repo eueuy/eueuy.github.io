@@ -17,10 +17,13 @@ disqus: y
 ## git 常见场景下的用法
 
 ### 撤销修改
+
 - 放弃刚刚对一个文件的改动
 刚刚修改了一个文件，但是现在发现还是修改之前的好，打算放弃刚才对这个文件的修改。
 在这种情况下，其实只要执行一下 <code>git status</code>就会有所提示，比方我们刚刚修改了一个叫做index.html的文件，在terminal中执行<code>git status</code>：
+
    ![git status](/assets/img/blog/2016/02-14/git-status.png)
+
 根据提示，使用<code>git add index.html</code>则是将此次修改提交到了暂存区，使用<code>git checkout -- index.html</code>则是放弃这次的修改，将文件还原到此次修改前的状态。
 
 - 提交完了才发现漏掉了几个文件没有添加，或者提交信息写错了。
@@ -29,6 +32,7 @@ disqus: y
 
 ### 版本回退
 版本回退大致分为2种情况:
+
 1：一切操作都还停留在本地仓库，<code>add</code> --> <code>commit</code>后并未 <code>push</code> 推送到远端；
 2：已经执行 <code>push</code> 操作将修改推送到远端。
 

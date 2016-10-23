@@ -76,7 +76,7 @@ tmux使用C/S模型构建，主要包括以下单元模块：
 
 如果在网上搜索的话你会发现大多的tmux配置文件都是大同小异. 在我的配置文件并没有像大多配置一样将tmux的前缀键(类似emacs)的前缀键重映射为`Ctrl+a`，而是选择了默认设置`Ctrl+b`. 另外在颜色选择上不同平台下渲染的效果不一样， 注意适应。
 
-下面是我的配置文件.
+[这里](https://github.com/liuchengxu/dotfiles/blob/master/tmux.conf)是我的tmux配置文件.
 
 ## 开始tmux
 
@@ -84,14 +84,14 @@ tmux使用C/S模型构建，主要包括以下单元模块：
 
 推荐材料 [tmux:Productive Mouse-Free Deveplement 中文版](http://www.kancloud.cn/kancloud/tmux/62459)
 
-commend | explanation
-:---:|:---:
-`tmux` | 启动tmux会话
-`tmux new -s myname` | 创建一个名为myname的新的会话
+commend                              | explanation
+:---:                                | :---:
+`tmux`                               | 启动tmux会话
+`tmux new -s myname`                 | 创建一个名为myname的新的会话
 `tmux a` / `tmux at` / `tmux attach` | 如果当前仅有一个会话，重新连接该会话
-`tmux a -t myname` | 连接到指定会话myname
-`tmux ls` | 显示所有会话
-`tmux kill-session -t myname` | 关闭指定会话myname
+`tmux a -t myname`                   | 连接到指定会话myname
+`tmux ls`                            | 显示所有会话
+`tmux kill-session -t myname`        | 关闭指定会话myname
 
 
 ### 会话
@@ -104,30 +104,30 @@ commend | explanation
 2. 放开 Ctrl-b
 3. 按下  s 键
 
-commend | explanation
-:---:|:---:
-`:new<CR>` | New session
+commend      | explanation
+:---:        | :---:
+`:new<CR>`   | New session
 `d (detach)` | 从一个会话中分离，让该会话在后台运行
-`$` | 重命名会话
-`s` | 显示会话
-`(` | 切换到上一会话
-`)` | 切换到下一会话
-`L (Last)` | 切换到最后一个会话
+`$`          | 重命名会话
+`s`          | 显示会话
+`(`          | 切换到上一会话
+`)`          | 切换到下一会话
+`L (Last)`   | 切换到最后一个会话
 
 ### 窗口(标签)
 
 window， 窗口操作。加前缀键。
 
-commend | explanation
-:---:|:---:
-`c (create)` | 创建新窗口
-`w (window)` | 显示窗口列表
-`f (find)` | 查找窗口
-`，` | 重命名窗口
-`&` | 关闭当前窗口，带有确认提示
-`n (next)` | 切换到下一窗口
+commend        | explanation
+:---:          | :---:
+`c (create)`   | 创建新窗口
+`w (window)`   | 显示窗口列表
+`f (find)`     | 查找窗口
+`，`           | 重命名窗口
+`&`            | 关闭当前窗口，带有确认提示
+`n (next)`     | 切换到下一窗口
 `p (previous)` | 切换到上一窗口
-`l (last)` | 切换到最后一个使用的窗口
+`l (last)`     | 切换到最后一个使用的窗口
 
 ### 面板 (分割)
 
@@ -184,35 +184,35 @@ set-option -g default-command "reattach-to-user-namespace -l bash"
 
 ![tmux](/assets/img/blog/2016/04-01/tmux-copy.gif)
 
-commend | explanation
-:---:|:---:
-`^` | Back to indentation
-`Esc` | Clear selection
-`Enter` | Copy selection
-`j` | Cursor down
-`h`| Cursor left
-`l` | Cursor right
-`L` | Cursor to bottom line
-`M` | Cursor to middle line
-`H` | Cursor to top line
-`k` | Cursor up
-`d` | Delete entire line
-`D` | Delete to end of line
-`$` | End of line
-`:` | Goto line
-`C-d` | Half page down
-`C-u` | Half page up
-`C-f` | Next page
-`w` | Next word
-`p` | Paste buffer
-`C-b` | Previous page
-`b` | Previous word
-`q` | Quit mode
+commend        | explanation
+:---:          | :---:
+`^`            | Back to indentation
+`Esc`          | Clear selection
+`Enter`        | Copy selection
+`j`            | Cursor down
+`h`            | Cursor left
+`l`            | Cursor right
+`L`            | Cursor to bottom line
+`M`            | Cursor to middle line
+`H`            | Cursor to top line
+`k`            | Cursor up
+`d`            | Delete entire line
+`D`            | Delete to end of line
+`$`            | End of line
+`:`            | Goto line
+`C-d`          | Half page down
+`C-u`          | Half page up
+`C-f`          | Next page
+`w`            | Next word
+`p`            | Paste buffer
+`C-b`          | Previous page
+`b`            | Previous word
+`q`            | Quit mode
 `C-Down` / `J` | Scroll down
 `C-Up` / `K`   | Scroll up
-`n` | Search again
-`?` | Search backward
-`/` | Search forward
-`0` | Start of line
-`Space` | Start selection
+`n`            | Search again
+`?`            | Search backward
+`/`            | Search forward
+`0`            | Start of line
+`Space`        | Start selection
 

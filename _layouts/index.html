@@ -13,8 +13,7 @@
     {% include nav.html %}
     <div class="row" style="padding-top: 70px">
       <div class="container center-block">
-        <div class="col-md-2"></div>
-        <div class="col-md-8 col-sm-12">
+        <div class="col-md-9 col-sm-12">
           <div class="panel panel-default">
             <div class="panel-heading">
               <h3 class="panel-title">Blog</h3>
@@ -22,6 +21,8 @@
             {{ content }}
           </div>
         </div>
+
+        <div class="col-md-2">{% include github-card.html %}</div>
       </div>
     </div>
 

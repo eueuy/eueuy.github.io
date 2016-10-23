@@ -77,7 +77,7 @@ disqus: y
   vis
 
 # 修改一个单词: change inside word
-   ciw
+  ciw
 
 # 修改一个单词: change around word
   caw

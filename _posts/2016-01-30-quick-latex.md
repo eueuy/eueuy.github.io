@@ -44,14 +44,14 @@ LaTeX中还有宏包的概念，`\usepackage{foo}`即可使用宏包foo中定义
 
 
 LaTeX模板常见文件类型 | 功能简要介绍
-:---:|:---:
-.dtx|**D**ocumented La**T**e**X** sources，宏包重要部分
-.ins | installation，控制 TeX 从 .dtx 文件里释放宏包文件
-.cfg|config， 配置文件，可由上面两个文件生成
-.sty | style files，使用<code>\usepackage{...}</code>命令进行加载
-.cls |classes files，类文件，使用<code>\documentclass{...}</code>命令进行加载
-.aux|auxiliary， 辅助文件，不影响正常使用
-.bst | BibTeX style file，用来控制参考文献样式
+:---:                 | :---:
+.dtx                  | **D**ocumented La**T**e**X** sources，宏包重要部分
+.ins                  | installation，控制 TeX 从 .dtx 文件里释放宏包文件
+.cfg                  | config， 配置文件，可由上面两个文件生成
+.sty                  | style files，使用<code>\usepackage{...}</code>命令进行加载
+.cls                  | classes files，类文件，使用<code>\documentclass{...}</code>命令进行加载
+.aux                  | auxiliary， 辅助文件，不影响正常使用
+.bst                  | BibTeX style file，用来控制参考文献样式
 
 class与style好像内容很像的感觉，在功能上的确很相似，但是也有区别。[这里是关于.cls与.sty文件的区别](https://tug.org/pracjourn/2005-3/asknelly/nelly-sty-&-cls.pdf)
 
@@ -129,13 +129,13 @@ LaTeX 的数学模式有两种：行内模式(inline)和行间模式(display)。
 
 4) 分组。很简单，就是用<code>{...}</code>将内容包含起来视作整体，比如上下标很长的时候。遇到什么时候得到的效果不是预期，那么很可能你需要加个分组，也就是添个大括号<code>{...}</code>.
 
-| LaTeX命令 | 预览效果 |
-|:--------:|:--------:|
-|<code>\$ x_i \$</code>      |  $x_i$      |
-|<code>\$ x^2 \$</code>|$x^2$|
-|<code>\$ x^ {y^z}\$</code>|$x^{y^z}$|
-|<code>\$ \int_a^b f(x)\$</code>|$\int_a^bf(x)$|
-|<code>\$ \frac ab \$</code>|$\frac ab$|
+| LaTeX命令                       | 预览效果       |
+| :--------:                      | :--------:     |
+| <code>\$ x_i \$</code>          | $x_i$          |
+| <code>\$ x^2 \$</code>          | $x^2$          |
+| <code>\$ x^ {y^z}\$</code>      | $x^{y^z}$      |
+| <code>\$ \int_a^b f(x)\$</code> | $\int_a^bf(x)$ |
+| <code>\$ \frac ab \$</code>     | $\frac ab$     |
 
 有了这几个概念以后，再动手写几个就大概懂了。无论多么复杂的公式都是有一个个简单的东西构成。推荐一个网站：[MathJax basic tutorial ](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
 
@@ -216,12 +216,12 @@ content
 
 我的本科论文LaTeX源文件已经放到了GitHub上，对于初次使用LaTeX写论文的问应当具有一定的借鉴意义，在源文件中我做出了诸多注解。此外论文内容关于推荐系统，如果有人做相关方向也可看一下。
 
-[论文GitHub地址](https://github.com/xuliuchengxlc/szuthesis)
+[论文GitHub地址](https://github.com/liuchengxu/szuthesis)
 
-[论文简介](xuliuchengxlc.github.io/szuthesis/)
+[论文简介](liuchengxu.github.io/szuthesis/)
 
-[LaTeX写的beamer幻灯片](http://www.liuchengxu.org/szuthesis/presentation.pdf)
+[LaTeX写的beamer幻灯片](liuchengxu.github.io/szuthesis/presentation.pdf)
 
-![](/assets/img/blog/2016/01-30/beamer.png)
+![beamer](/assets/img/blog/2016/01-30/beamer.png)
 
 如果您已经懂得了基础操作，不妨看一下我在CSDN记录的一些LaTeX使用注意点，里面积累了我在LaTeX使用过程中的很多经验：[LaTeX实战经验：新手须知](http://blog.csdn.net/simple_the_best/article/details/51244631)

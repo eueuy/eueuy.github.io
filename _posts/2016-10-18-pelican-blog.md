@@ -2,7 +2,7 @@
 layout: post
 author: Liucheng Xu
 title: "[译]使用pelican搭建一个数据科学博客"
-category: 
+category:
 tags: []
 ---
 
@@ -106,7 +106,7 @@ Python一旦安装完成，我们可以进行以下操作：
   ghp-import==0.4.1
   matplotlib==1.5.1
 ```
-  
+
  - 在`jupyter-blog`下执行`pip install -r requirements.txt`安装`requirements.txt`中的所有包。
 
 ### 创建属于你自己的数据科学博客
@@ -116,7 +116,7 @@ Python一旦安装完成，我们可以进行以下操作：
 对于大多数问题，直接点击`Enter`接受默认值即可，需要自定义的地方有the title of the website（网站标题）, the author of the website（作者）,`n` for the URL prefix（URL前缀选择`n`）, and the timezone（时间区）。下面是一个示例（译者：以下内容以后都可在`pelicanconf.py`中再次修改）：
 
 ```bash
-# xuliucheng @ xlcdemac in ~/pelican-blog [14:39:44] 
+# xuliucheng @ xlcdemac in ~/pelican-blog [14:39:44]
 $ pelican-quickstart
 Welcome to pelican-quickstart v3.6.3.
 
@@ -125,27 +125,27 @@ This script will help you create a new Pelican-based website.
 Please answer the following questions so this script can generate the files
 needed by Pelican.
 
-    
-> Where do you want to create your new web site? [.] 
+
+> Where do you want to create your new web site? [.]
 > What will be the title of this web site? LiuchengXu's Blog
 > Who will be the author of this web site? LiuchengXu
-> What will be the default language of this web site? [en] 
+> What will be the default language of this web site? [en]
 > Do you want to specify a URL prefix? e.g., http://example.com   (Y/n) n
-> Do you want to enable article pagination? (Y/n) 
-> How many articles per page do you want? [10] 
-> What is your time zone? [Europe/Paris] 
-> Do you want to generate a Fabfile/Makefile to automate generation and publishing? (Y/n) 
-> Do you want an auto-reload & simpleHTTP script to assist with theme and site development? (Y/n) 
-> Do you want to upload your website using FTP? (y/N) 
-> Do you want to upload your website using SSH? (y/N) 
-> Do you want to upload your website using Dropbox? (y/N) 
-> Do you want to upload your website using S3? (y/N) 
-> Do you want to upload your website using Rackspace Cloud Files? (y/N) 
+> Do you want to enable article pagination? (Y/n)
+> How many articles per page do you want? [10]
+> What is your time zone? [Europe/Paris]
+> Do you want to generate a Fabfile/Makefile to automate generation and publishing? (Y/n)
+> Do you want an auto-reload & simpleHTTP script to assist with theme and site development? (Y/n)
+> Do you want to upload your website using FTP? (y/N)
+> Do you want to upload your website using SSH? (y/N)
+> Do you want to upload your website using Dropbox? (y/N)
+> Do you want to upload your website using S3? (y/N)
+> Do you want to upload your website using Rackspace Cloud Files? (y/N)
 > Do you want to upload your website using GitHub Pages? (y/N) y
 > Is this your personal page (username.github.io)? (y/N) y
 Done. Your new project is available at /Users/xuliucheng/pelican-blog
 
-# xuliucheng @ xlcdemac in ~/pelican-blog [14:43:04] 
+# xuliucheng @ xlcdemac in ~/pelican-blog [14:43:04]
 $ ls
 Makefile  content  develop_server.sh  fabfile.py  output  pelicanconf.py  publishconf.py  requirements.txt
 
@@ -181,17 +181,17 @@ git安装好后：
 - 执行`git submodule add git://github.com/danielfrg/pelican-ipynb.git plugins/ipynb`来添加插件。
 
 ```bash
-# xuliucheng @ xlcdemac in ~/pelican-blog [14:45:19] 
+# xuliucheng @ xlcdemac in ~/pelican-blog [14:45:19]
 $ git init
 Initialized empty Git repository in /Users/xuliucheng/pelican-blog/.git/
 
-# xuliucheng @ xlcdemac in ~/pelican-blog on git:master x [14:52:21] 
+# xuliucheng @ xlcdemac in ~/pelican-blog on git:master x [14:52:21]
 $ mkdir plugins
 
-# xuliucheng @ xlcdemac in ~/pelican-blog on git:master x [14:52:37] 
-$ cd plugins 
+# xuliucheng @ xlcdemac in ~/pelican-blog on git:master x [14:52:37]
+$ cd plugins
 
-# xuliucheng @ xlcdemac in ~/pelican-blog/plugins on git:master x [14:52:48] 
+# xuliucheng @ xlcdemac in ~/pelican-blog/plugins on git:master x [14:52:48]
 $ git submodule add git://github.com/danielfrg/pelican-ipynb.git plugins/ipynb
 Cloning into '/Users/xuliucheng/pelican-blog/plugins/plugins/ipynb'...
 remote: Counting objects: 387, done.
@@ -352,7 +352,7 @@ pelican支持主题，你可在[这里](https://github.com/getpelican/pelican-th
 上面的部署部分只讲了部署到`username.github.io`, 这里讲一下部署到`username.github.io/project`的注意事项（[因为有坑](https://github.com/getpelican/pelican/issues/1526)）。
 
 - 【注意点】在`pelicanconf.py`中设置`SITEURL`, 格式为 `https://liuchengxu.github.io/project`.
-	
+
 ```
 SITEURL = 'https://liuchengxu.github.io/pelican-blog'
 

@@ -17,8 +17,8 @@
     {% include nav.html %}
     <div class="row" style="padding-top: 70px">
       <div class="container center-block">
-        <div class="col-md-2"></div>
-        <div class="main col-md-8 col-sm-12">
+        <div class="col-md-0"></div>
+        <div class="main col-md-9 col-sm-12">
             <h1 class="text-center text-uppercase">{{ page.title }}</h1>
             {{ content }}
             {% if page.donate == 'y' %}
@@ -27,6 +27,9 @@
             {% if page.disqus == 'y' %}
             {% include disqus.html %}
             {% endif %}
+        </div>
+        <div class="col-md-2">
+          {% include github-card.html %}
         </div>
       </div>
     </div>
@@ -37,7 +40,10 @@
       $(function(){
         $("pre").addClass("prettyprint");
         prettyPrint();
-        $("pre").addClass("pre-scrollable")
+        $("pre").addClass("pre-scrollable");
+        $("img").addClass("center-block img-responsive img-thumbnail");
+        $("table").addClass("table table-striped table-bordered table-hover table-condensed");
+        $("p a").addClass("text-info");
       });
     </script>
     {% include google-analytics.html %}

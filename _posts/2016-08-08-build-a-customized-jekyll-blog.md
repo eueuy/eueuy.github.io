@@ -30,14 +30,14 @@ tags: []
 ![structure](/assets/img/blog/2016/08-08/structure.png)
 
 
-文件(夹) | 作用
-:---:|:---:
-_config.yml | 必须，显然是一个配置文件，里面的内容可以通过jekyll定义的方式进行读取
-_posts | 必须,该文件夹下放置博文, 命名形式为2016-08-08-your-post-name.md.
-_includes | 非必须，但是为了重用一些内容，可以将它们放到这里，再通过include命令进行引用
-_layouts | 必须，里面为博客里面使用的一些模板样式，比如你在md文件里面的yml头使用了`layout: post`, 那么`_layouts`里面就该有一个post.html。
-CNAME | 自定义域名。不了解的话可以delete
-Rakefile | 下一节会介绍
+文件(夹)                            | 作用
+:---:                               | :---:
+_config.yml                         | 必须，显然是一个配置文件，里面的内容可以通过jekyll定义的方式进行读取
+_posts                              | 必须,该文件夹下放置博文, 命名形式为2016-08-08-your-post-name.md.
+_includes                           | 非必须，但是为了重用一些内容，可以将它们放到这里，再通过include命令进行引用
+_layouts                            | 必须，里面为博客里面使用的一些模板样式，比如你在md文件里面的yml头使用了`layout: post`, 那么`_layouts`里面就该有一个post.html。
+CNAME                               | 自定义域名。不了解的话可以delete
+Rakefile                            | 下一节会介绍
 其他文件, 诸如404.html, feed.xml... | 从已有的主题保留即可, 不改动应该也不会影响
 
 
