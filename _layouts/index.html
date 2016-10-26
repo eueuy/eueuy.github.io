@@ -15,14 +15,16 @@
       <div class="container center-block">
         <div class="col-md-9 col-sm-12">
           <div class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title">Blog</h3>
-            </div>
+            {% comment %} <div class="panel-heading"> {% endcomment %}
+              {% comment %} <h3 class="panel-title">Blog</h3> {% endcomment %}
+            {% comment %} </div> {% endcomment %}
             {{ content }}
           </div>
         </div>
 
-        <div class="col-md-2">{% include github-card.html %}</div>
+        <div class="col-md-2">
+          {% include github-card.html %}
+        </div>
       </div>
     </div>
 

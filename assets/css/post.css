@@ -1,5 +1,8 @@
-H1, H2, H3, H4, H5 {
+H1, H2, H3, H4, H5, H6 {
     color: #666;
+    line-height: 1.4;
+    font-family: "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    font-weight: 500;
 }
 H2 {
     margin-bottom: 30px;
@@ -26,7 +29,23 @@ nav {
     font-family: STFangSong, 'Times New Roman';
 }
 
+p {
+    line-height: 1.6;
+}
+pre {
+    overflow-x: auto;
+
+}
+blockquote {
+    background-color: #eee;
+    border-left: 5px solid #ddd;
+}
+
+.main a {
+    border-bottom: 1px dashed orange;
+}
 a:hover{
+    text-decoration: none;
     cursor: crosshair;
     background-color: LightGrey;
 }
@@ -41,4 +60,5 @@ a:hover{
 }
 #markdown-toc a{
     border: none;
+    color: #567;
 }
