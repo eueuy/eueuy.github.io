@@ -32,10 +32,6 @@ nav {
 p {
     line-height: 1.6;
 }
-pre {
-    overflow-x: auto;
-
-}
 blockquote {
     background-color: #eee;
     border-left: 5px solid #ddd;

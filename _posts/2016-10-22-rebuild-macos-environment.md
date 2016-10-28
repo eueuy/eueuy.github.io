@@ -83,9 +83,9 @@ tags: []
 
 首先安装[homebrew](http://brew.sh/):
 
-```
+<pre class="language-bash">
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-```
+</pre>
 
  - `brew install`安装命令行软件
 
@@ -95,53 +95,55 @@ tags: []
 
 安装好brew以后，有一些软件是必备品，比如git, wget. 我把dotfiles放在了github上，里面维护了一个`brew_for_new.sh`放置brew的部分安装清单, [这里是我的 dotfies github地址](https://github.com/liuchengxu/dotfiles). 因此执行下面的命令即可安装brew必备的一些软件：
 
-```
+<pre class="language-bash">
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/liuchengxu/dotfiles/master/brew_for_new.sh)"`
-```
+</pre>
 
 顺便再将dotfiles克隆到本地：
-```
+
+<pre class="language-bash">
 git clone https://github.com/liuchengxu/dotfiles.git ~/dotfiles
 sh ~/dotfiles/bootstrap.sh
-```
+</pre>
 
 #### [oh-my-zsh](http://ohmyz.sh/)
 
-```
+<pre class="language-bash">
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-```
+</pre>
 
 #### vim
 
 我有一个vim配置[space-vim](https://github.com/liuchengxu/space-vim)放在github上，执行安装命令即可一键安装。不过首先需要安装 vim:
 
-```
+<pre class="language-bash">
 brew install vim --with-lua --with-override-system-vi --with-python3
 brew install macvim --with-lua --with-override-system-vim --with-python3
 # YouCompleteMe prerequisites
 brew install cmake
-```
+</pre>
 
 安装powerline fonts, space-vim 与[powerline fonts](https://github.com/powerline/fonts)搭配效果更佳：
 
-```
+<pre class="language-bash">
 git clone https://github.com/powerline/fonts.git ~/.fonts && bash ~/.fonts/install.sh
-```
+</pre>
 
 #### [spacemacs](https://github.com/syl20bnr/spacemacs)
 
 安装emacs:
 
-```
+<pre class="language-bash">
 brew tap d12frosted/emacs-plus
 brew install emacs-plus
 brew linkapps emacs-plus
-```
+</pre>
+
 克隆spacemacs repo:
 
-```
+<pre class="language-bash">
 git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
-```
+</pre>
 
 #### Java 与 Python
 `brew cask install java`会安装最新版本的java. 如果需要指定版本，自行搜索具体做法即可。
@@ -152,7 +154,7 @@ git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 
 #### 其他
 
-```
+<pre class="language-bash">
 # sourcetree
 brew cask install sourcetree
 
@@ -164,7 +166,7 @@ brew cask install iterm2
 
 # r语言
 brew cask install r-gui
-```
+</pre>
 
 使用 brew cask 的其中一个好处便是有些图形软件 brew 会自动帮你创建一个链接可以从terminal中启动，比如可以使用`subl`从命令行启动sublime text.  
 
@@ -172,9 +174,9 @@ iterm2安装完成后克隆终端主题进行美化，毕竟默认主题选择�
 
 在用户目录下新建一个GitHub目录，以后从GitHub克隆的repo都可以放到这里：
 
-```
+<pre class="language-bash">
 cd ~/GitHub && git clone https://github.com/mbadolato/iTerm2-Color-Schemes.git
-```
+</pre>
 
 为iterm2设置一个类似Guake的功能，`iTterm2` >> `Profiles`, 添加一个叫做Guake的profile >> `Window` >> `Style`选择 `Fullscreen` , 然后设置ITerm2的热键，`iTerm2` >> `Keys` >> `Hotkey`, 我习惯将Hotkey设置为F12.
 
@@ -189,7 +191,7 @@ cd ~/GitHub && git clone https://github.com/mbadolato/iTerm2-Color-Schemes.git
 
 使用 brew cask 安装软件时，有时不是一个安装命令就能搞定，还需要一些额外的操作。下面是一些常用软件列表:
 
-```
+<pre class="language-bash">
 # qq
 brew cask install qq
 
@@ -210,15 +212,15 @@ brew cask install cheatsheet
 
 # mactex
 brew cask install mactex
-```
+</pre>
 
 搜狗输入法:
 
 安装搜狗输入法时，brew 会有提示:
 
-```
+<pre class="language-bash">
 To complete the installation of Cask sogouinput, you must also run the installer at '/usr/local/Caskroom/sogouinput/3.7.0.1459/安装搜狗输入法.app'
-```
+</pre>
 
   因此，我们需要在终端中执行 `open /usr/local/Caskroom/sogouinput/3.7.0.1459/安装搜狗输入法.app` 才能进一步完成安装。
 

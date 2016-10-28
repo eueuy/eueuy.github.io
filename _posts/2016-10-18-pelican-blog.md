@@ -20,14 +20,14 @@ tags: []
 
 将你的博客构建成为一个静态网站是一个非常好的想法，因为它维护起来极其简单。创建静态网站的一个方式是手写HTML, 然后将所有的HTML文件上传到服务器。在这样的情况下，你至少需要一个`index.html`文件。如果你的网站URL是`thebestblog.com`, 那么访问者访问`http://thebestblog.com`时将会被展示`index.html`的内容。下面是`thebestblog.com`可能的HTML构成：
 
-```
+<pre class="language-basic">
 thebestblog.com
 │   index.html
 │   first-post.html
 │   how-to-use-python.html
 │   how-to-do-machine-learning.html
 │   styles.css
-```
+</pre>
 
 在上面的网站中，访问`http://www.thebestblog.com/first-post.html`将会展示`first-post.html`文件中的内容。`first-post.html`可能像这样：
 

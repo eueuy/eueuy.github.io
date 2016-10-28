@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Liucheng Xu
-title: "快速搭建一个 jekyll blog"
+title: "快速搭建一个个性化的 jekyll blog"
 category:
 tags: []
 ---
@@ -10,9 +10,10 @@ tags: []
 {: toc}
 
 ### 简单了解并快速构建一个jekyll blog
+
 会简单使用git，GitHub，就可以搭建一个GitHub博客了。在GitHub上搭建博客有多种方式，官方的jekyll, hexo, octopress等多种方式，我选择的是jekyll。
 
-[利用GitHub pages构建一个极简易的页面](https://pages.github.com/)，上面的完成后可以在`your_username.github.io`地址进行访问。接下来便可以进行下一步的工作: [Blogging with jekyll](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/). 网上有很多jekyll blog的教程，可以先看一下了解概况，在这里并不会进行详细介绍。
+[利用 GitHub pages 构建一个极简易的页面](https://pages.github.com/)，上面的完成后可以在 `your_username.github.io` 地址进行访问。接下来便可以进行下一步的工作: [Blogging with jekyll](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/). 网上有很多jekyll blog的教程，可以先看一下了解概况，在这里并不会进行详细介绍。
 
 跟着教程走，顺利的话，在jekyll blog目录下，比如下图中的liuchengxu.github.io目录，
 
@@ -25,6 +26,7 @@ bundle exec jekyll serve --watch
 ![github-io](/assets/img/blog/2016/08-08/github-io.png)
 
 ### 个性化blog风格
+
 [jekyllthemes](http://jekyllthemes.org/)上有很多jekyll blog的主题，都很漂亮，喜欢的话可以先试一下。
 
 ![jekyllthemes](/assets/img/blog/2016/08-08/jekyllthemes.png)
@@ -53,18 +55,25 @@ liuchengxu.github.io
 └── sitemap.xml
 ```
 
-文件(夹)                            | 作用
-:---:                               | :---:
-`_config.yml`                       | 必须，显然是一个配置文件，里面的内容可以通过jekyll定义的方式进行读取
-`_posts`                            | 必须,该文件夹下放置博文, 命名形式为2016-08-08-your-post-name.md.
-`_includes`                         | 非必须，但是为了重用一些内容，可以将它们放到这里，再通过include命令进行引用
-`_layouts`                          | 必须，里面为博客里面使用的一些模板样式，比如你在md文件里面的yml头使用了`layout: post`, 那么`_layouts`里面就该有一个post.html。
-CNAME                               | 自定义域名。不了解的话可以delete
-Rakefile                            | 下一节会介绍
-其他文件, 诸如404.html, feed.xml... | 从已有的主题保留即可, 不改动应该也不会影响
+文件(夹)            | 作用
+:---:               | :---:
+`_config.yml`       | 必须，配置文件，里面的内容可以通过 jekyll 定义的方式进行读取
+`_posts`            | 必须,该文件夹下放置博文, 命名形式为2016-08-08-your-post-name.md
+`_layouts`          | 必须，里面为博客里面使用的一些模板样式
+`_includes`         | 非必须，但是为了重用一些内容，可以将它们放到这里，再通过 include 命令进行引用
+CNAME               | 自定义域名
+Rakefile            | 类似Makefile, 不过针对ruby
+其他, 比如 404.html | 从已有的主题保留即可
+
+#### 添加新的元素
+
+要想有一个个性化的博客，肯定需要加入一些带有自己偏好的新元素进去。其实也很简单，无非还是 CSS, HTML这类东西。
+
+比如我想修改博客里显示多行代码的样式，那就看一下目前博客正在什么方式，网络上有哪些方式，挑一个替换即可。我一开始使用 google-prettify 的方式，现在加入 [prismjs](http://prismjs.com/) 的效果。
 
 
 ### 自动化新建post
+
 jekyll blog中markdown博文的文件头, 比如下面这样，每篇如果手写的话显得比较费时费力。
 
 ``` yml
