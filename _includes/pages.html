@@ -1,0 +1,18 @@
+<div class="row center-block pages">
+  <div class="previous text-center col-md-6 col-sm-12">
+  {% if page.previous %}
+      <a href="{{ page.previous.url }}">
+          <p>上一篇</p>
+          <p>{{ page.previous.title }}</p>
+      </a>
+  {% endif %}
+  </div>
+  <div class="next text-center col-md-6 col-sm-12">
+  {% if page.next %}
+      <a href="{{page.next.url}}">
+          <p class="text-center">下一篇</p>
+          <p class="text-center">{{ page.next.title }}</p>
+      </a>
+  {% endif %}
+  </div>
+</div>

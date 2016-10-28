@@ -1,5 +1,5 @@
 # Liu-Cheng Xu's Blog
-⭐️ My Personal Blog
+⭐️ [My Personal Blog](https://liuchengxu.github.io)
 
 ## About my blog
 The current theme is a variation of [yinwang](http://www.yinwang.org/), which I have made many modifications for a better reading experience.

@@ -20,11 +20,7 @@ H4 {
     padding-bottom: 5px;
     border-bottom: 1px LightGrey solid;
 }
-.main {
-    font-family: "Times New Roman", "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-    border: 1px solid #ccc;
-    padding: 5%;
-}
+
 nav {
     font-family: STFangSong, 'Times New Roman';
 }
@@ -37,6 +33,11 @@ blockquote {
     border-left: 5px solid #ddd;
 }
 
+.main {
+    font-family: "Times New Roman", "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    border: 1px solid #ccc;
+    padding: 5%;
+}
 .main a {
     border-bottom: 1px dashed orange;
 }
@@ -57,4 +58,18 @@ a:hover{
 #markdown-toc a{
     border: none;
     color: #567;
+}
+
+.pages {
+  width: 90%;
+  margin: 40px;
+  line-height: 200%;
+  background: center center no-repeat #222831;
+  background-size: cover;
+}
+.pages p {
+    color: #bbb;
+}
+.pages .previous:hover, .pages .next:hover{
+  background-color: #222;
 }
