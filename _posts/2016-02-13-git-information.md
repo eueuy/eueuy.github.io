@@ -16,6 +16,24 @@ disqus: y
 
 ## git 常见场景下的用法
 
+### 分支管理
+
+在 master 分支上创建新的分支 develop:
+
+```
+# 创建 develop 分支
+git checkout -b develop master
+```
+
+把 develop 分支发布到 master 分支:
+
+```
+# 切换到 master 分支
+git checkout master
+# 对 develop 分支进行合并
+git merge --no-ff develop
+```
+
 ### 撤销修改
 
 - 放弃刚刚对一个文件的改动

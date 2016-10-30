@@ -12,7 +12,7 @@ tags: []
 
 近来由于mac出了点小问题一直没有解决，加上用了已经有好长一段时间，一直想清理一下(精神洁癖作祟)，所幸重装了事。没有使用TimeMachine，所以需要先行将一些觉得尚有价值的文件拷贝下来。
 
-写下这篇文章，也是为了以后再次遇到问题能够有章可循，不至于胡乱一通重装。本文也会持续更新，欢迎大家分享更好的经验。
+写下这篇文章，也是为了以后再次遇到问题能够有章可循，不至于胡乱一通重装。本文放在 [gist](https://gist.github.com/liuchengxu/10eee9349b7f2470d13116bec8d0755f)， 如有后续也会持续更新，欢迎大家分享更好的经验。
 
 ## 重装macOS
 
@@ -180,11 +180,11 @@ cd ~/GitHub && git clone https://github.com/mbadolato/iTerm2-Color-Schemes.git
 
 为iterm2设置一个类似Guake的功能，`iTterm2` >> `Profiles`, 添加一个叫做Guake的profile >> `Window` >> `Style`选择 `Fullscreen` , 然后设置ITerm2的热键，`iTerm2` >> `Keys` >> `Hotkey`, 我习惯将Hotkey设置为F12.
 
-![iTerm2 Fullscreen](http://upload-images.jianshu.io/upload_images/127313-8ad56a756be714ce.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![iTerm2 Fullscreen](/assets/img/blog/2016/10-28/iterm1.png)
 
 
 
-![Guake Hotkey](http://upload-images.jianshu.io/upload_images/127313-d079e2a19eae40c1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Guake Hotkey](/assets/img/blog/2016/10-28/iterm2.png)
 
 
 ### 日常使用软件
@@ -230,5 +230,5 @@ To complete the installation of Cask sogouinput, you must also run the installer
 
 我买了一个欧陆的注册码，因为它的很多词库很好用。另外因为词典比较常用，给它设置一个快捷键 `Ctrl + 1`，`欧陆词典` >> `偏好设置` >> `快捷键` >> `显示|隐藏《欧陆词典》窗口` >>按`Ctrl + 1`. 以后只要 `Ctrl + 1`， 就可唤出词典。我还将`翻译选中内容`的快捷键设置为`Ctrl + T `。默认的`激活 Light Peek`快捷键与Alfred冲突，去除。
 
-  ![Eudic](http://upload-images.jianshu.io/upload_images/127313-a783bc4f978cd84f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Eudic](/assets/img/blog/2016/10-28/eudic.png)
 

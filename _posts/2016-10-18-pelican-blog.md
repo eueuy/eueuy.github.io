@@ -360,10 +360,10 @@ SITEURL = 'https://liuchengxu.github.io/pelican-blog'
 
 - 在pelican-blog目录下，将output目录下的内容推送到gh-pages分支：
 
-	```
-	ghp-import output -b gh-pages
-	git push origin gh-pages
-	```
+```
+ghp-import output -b gh-pages
+git push origin gh-pages
+```
 
 - 现在可以在`username.github.io/project`进行访问了，比如我的[pelican-blog](https://liuchengxu.github.io/pelican-blog) . 至于日常更新在master分支即可。
 

@@ -30,4 +30,5 @@ Linux下使用shadowsocks进行翻墙，除了安装好Linux下的ss客户端，
 network proxy就是这么简单了，然后应该就可以成功翻墙了，至少在我的环境下chrome可以。
 
 对于Firefox可能上面的设置还不够，还需进一步设置代理：
+
  ![manual](/assets/img/blog/2016/10-22/firefox.png)
