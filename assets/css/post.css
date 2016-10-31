@@ -25,7 +25,7 @@ nav {
     font-family: STFangSong, 'Times New Roman';
 }
 
-p code {
+p code, ul code, li code, ul li code, li ul code {
     border: solid 1px #d0d4d7;
     font-size: 80%;
     color: #e83a6f;
