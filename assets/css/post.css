@@ -68,14 +68,19 @@ a:hover{
 
 .pages {
   width: 90%;
-  margin: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   line-height: 200%;
-  background: center center no-repeat #222831;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #f5f2f0;
   background-size: cover;
 }
 .pages p {
-    color: #bbb;
+    color: #555;
+    font-weight: 600;
 }
 .pages .previous:hover, .pages .next:hover{
-  background-color: #222;
+  background-color: #dbdbdb;
+  background-color: #e2e2e2;
 }
