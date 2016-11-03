@@ -5,6 +5,9 @@
           <p>上一篇</p>
           <p>{{ page.previous.title }}</p>
       </a>
+  {% else %}
+    <p>Already the first post</p>
+    <p>已经是第一篇了</p>
   {% endif %}
   </div>
   <div class="next text-center col-md-6 col-sm-12">
@@ -13,6 +16,9 @@
           <p class="text-center">下一篇</p>
           <p class="text-center">{{ page.next.title }}</p>
       </a>
+  {% else %}
+    <p>Already the last post</p>
+    <p>已经是最后一篇了</p>
   {% endif %}
   </div>
 </div>
