@@ -34,7 +34,21 @@ git checkout master
 git merge --no-ff develop
 ```
 
-### 撤销修改
+### 撤销操作
+
+commit 完了发现提交信息写错了。 此时，可以运行带有 `--amend` 选项的提交命令尝试重新提交：
+
+```
+git commit --amend
+```
+
+commit 后发现忘记 add 某些文件：
+
+```
+git commit -m 'initial commit'
+git add forgotten_file
+git commit --amend
+```
 
 - 放弃刚刚对一个文件的改动
 刚刚修改了一个文件，但是现在发现还是修改之前的好，打算放弃刚才对这个文件的修改。

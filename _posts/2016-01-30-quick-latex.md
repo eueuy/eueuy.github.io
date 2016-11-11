@@ -220,7 +220,7 @@ content
 
 [论文简介](liuchengxu.github.io/szuthesis/)
 
-[LaTeX写的beamer幻灯片](liuchengxu.github.io/szuthesis/presentation.pdf)
+[beamer slide](liuchengxu.github.io/szuthesis/dissertation_defence.pdf)
 
 ![beamer](/assets/img/blog/2016/01-30/beamer.png)
 
