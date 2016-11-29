@@ -26,10 +26,6 @@ vim配置其实很简单,主要就是 `.vimrc` 和各种插件增强功能而已
 
 效果图:
 
-- ubuntu
-
-![screenshot](https://github.com/liuchengxu/space-vim/blob/master/doc/img/ubuntu.png?raw=true)
-
 - macOS
 
 ![screenshot](https://github.com/liuchengxu/space-vim/blob/master/doc/img/screenshot.png?raw=true)

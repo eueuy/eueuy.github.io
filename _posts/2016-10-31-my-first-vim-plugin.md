@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Liucheng Xu
-title: "我的第一个 vim 插件"
+title: "第一个 vim 插件"
 category: 
 tags: []
 ---
@@ -21,7 +21,7 @@ tags: []
 
 比如 [vim-better-default](https://github.com/liuchengxu/vim-better-default) 的部分内容:
 
-```
+```vim
 set shortmess=atI " No help Uganda information
 set incsearch     " Find as you type search
 set hlsearch      " Highlight search terms
@@ -35,7 +35,7 @@ set smartcase     " Case sensitive when uc present
 ### 用法
 像正常插件一样安装即可，比如 [vim-plug](https://github.com/junegunn/vim-plug):
 
-```
+```vim
 Plug 'liuchengxu/vim-better-default'
 ```
 
@@ -43,7 +43,7 @@ Plug 'liuchengxu/vim-better-default'
 
 如果不想添加 vim-better-default 的键位映射部分，可以将其设置为0.不过还是建议您尝试一下，说不定会有新体验。
 
-```
+```vim
 let g:vim_better_default_key_mapping = 0
 ```
 
@@ -80,7 +80,7 @@ Key binding| Operation
 
 另外，关于 `<Leader>` 的设置，推荐设置为 `SPC` ，即空格键，会减轻不少手指的压力。
 
-```
+```vim
 let mapleader="\<Space>"
 ```
 
