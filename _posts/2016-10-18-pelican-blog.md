@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Liucheng Xu
-title: "[译]使用pelican搭建一个数据科学博客"
+title: "[译]使用 pelican 搭建一个数据科学博客"
 category:
 tags: []
 ---

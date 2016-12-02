@@ -1,6 +1,6 @@
 ---
 layout: post
-title: C、Java、Python如何查找相对路径文件
+title: C、Java、Python 相对路径文件查找问题
 author: Liucheng Xu
 tags: "programming"
 disqus: y

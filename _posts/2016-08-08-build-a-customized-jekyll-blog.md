@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Liucheng Xu
-title: "快速搭建一个个性化的 jekyll blog"
+title: "快速搭建一个 jekyll blog"
 category:
 tags: []
 ---

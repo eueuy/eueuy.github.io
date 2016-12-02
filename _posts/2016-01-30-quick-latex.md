@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 从零开始LaTeX快速入门
+title: 从零开始 LaTeX 快速入门
 tags: LaTeX
 author: Liucheng Xu
 disqus: "y"
@@ -95,7 +95,7 @@ Here comes \LaTeX!
 \end{document}
 ```
 
-点击 <code>F5</code>（默认快捷键）compile and view，即可看到效果。
+点击 <kbd>F5</kbd>（默认快捷键）compile and view，即可看到效果。
 
 ![TeXstudio](/assets/img/blog/2016/01-30/screen.png)
 
@@ -116,7 +116,7 @@ LaTeX 的数学模式有两种：行内模式(inline)和行间模式(display)。
 
 在行文中，使用<code>\$ ... \$</code>可以插入行内公式，使用<code>\$\$ ... \$\$</code>可以插入行间公式，如果需要对行间公式进行编号，可以使用equation环境：
 
-```
+```tex
 \begin{equation}
 ......
 \end{equation}
@@ -158,7 +158,7 @@ Windows平台比较简单， 引入CJK宏包并应用CJK环境即可。
 
 LaTeX将
 
-``` tex
+```tex
 \begin{...}
 content
 \end{...}
@@ -168,12 +168,16 @@ content
 
 ![winedt](/assets/img/blog/2016/01-30/winedt.png)
 
-还有一个更方便的方式，直接使用<code>ctexart</code>模板即可:```\documentclass[UTF8]{ctexart}```
+还有一个更方便的方式，直接使用<code>ctexart</code>模板即可:
+
+```tex
+\documentclass[UTF8]{ctexart}
+```
 
 **Mac**
 系统为osx 10.11.3， Mac添加中文支持稍微多几个操作，除了引入xeCJK宏包，还要设置字体名称。
 关于设置字体名称，spotlight输入 zitice 打开 mac 的字体册，从字体中选择一个，将其名称填入，如华文楷体的名称为 STKaiti 。
-如果没有显示字体名称，请 <code>command+I</code> 或在显示-->显示字体信息即可。
+如果没有显示字体名称，请 <kbd>command</kbd> + <kbd>I</kbd> 或在显示-->显示字体信息即可。
 
 ![font](/assets/img/blog/2016/01-30/font.png)
 

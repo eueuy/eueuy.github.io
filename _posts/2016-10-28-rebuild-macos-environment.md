@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Liucheng Xu
-title: "重建macOS使用与开发环境"
+title: "快速重建 macOS 日常使用与开发环境"
 category:
 tags: []
 ---

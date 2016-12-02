@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 学会使用vim
+title: vim 入门
 author: Liucheng Xu
 tags: vim
 disqus: y
@@ -188,19 +188,22 @@ d2w
 - s：和x类似，不过最后进入插入模式。
 
 #### 替换(更改)文本
-- <code>~</code> : 游标所在处字符进行大小写替换。
+
+- <kbd>~</kbd> : 游标所在处字符进行大小写替换。
 - r ( replace ) : 替换单个字符，不必进入插入模式(insert mode)。 在 normal mode 下将光标停在想要替换的字符处，输入<code>r</code>紧接着再输入想要替换后的字符即可。完成后仍然在normal mode。
 - R : 大写的R表示连续替换，直到按下<code>esc</code>.
 - cc ( change )：替换整行，即删除游标所在行，并进入插入模式。
 - s ( substitute ) : 替换。在normal mode下的<code>s</code>将会删除光标处的字符并进入 insert mode，此时便可进行重新编辑。
 
 #### 粘贴
+
 - p ( paste or put )(小写p) : 在当前行后粘贴。
 - P（ 大写P ）: 在当前行前粘贴。
 
 ## vim 进阶
 
 ### 使用数字
+
 在很多 vim 的命令之前都可以使用一个数字，这个数字将会告诉 vim 这个命令需要执行几次。比如：
 
 - 3j : 将会把光标向下移动三行。
@@ -208,12 +211,14 @@ d2w
 - y3″ : 将会拷贝从当前光标到第三个出现的引号之间的内容到剪贴板。 数字是扩展 motion 命令作用域非常有效的方法。
 
 ### 用vim写代码
+
 vim 是程序员专用，自然有一些特性是专门为程序员而设计的。这里是一些常用的：
 
 - \>：缩进所有选择的代码
 - \<：和上面类似，但是反缩进
  
 ### 查找替换
+
 s指substitute（代替，替换的意思），g指global。
 
 - `:s/hello/sky/` 替换当前行第一个 hello 为 sky
@@ -229,12 +234,14 @@ s指substitute（代替，替换的意思），g指global。
 - 比如对于`hello(test)`，**光标停留在括号处**，那么`di(` 表示删除括号里面的内容，即删除括号里面的test内容， 简记为`delete in (`。同理，`(`也可以换成`[`，删除里面的内容。还有类似的`da(`是连同周围的括号一起删除，`delete around (`.
 
 ### 调整本行内容位置
+
 - <code>:ce</code> : 在命令行模式下输入 <code>:ce</code> (center)将本行内容居中。
 - <code>:ri</code> : 将本行内容居右(right).
 - <code>:le</code> : 将本行内容居左(left).
 
 
 Footnotes:
+
 1.  [Vim学习笔记](http://mturing.com/wiki/wikihtml/Vim%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html)
 2.  学习vi与vim编辑器 第七版 中文 东南大学出版社
 3.  [一起来说vim语](http://www.codeceo.com/article/vim-language.html)

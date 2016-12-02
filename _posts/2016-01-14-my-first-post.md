@@ -26,7 +26,7 @@ This is *red*{: style="color: red"}.
 
 - 代码块
 
-``` ruby
+```ruby
  require 'redcarpet'
  markdown = Redcarpet.new("Hello World!")
  puts markdown.to_html
@@ -50,7 +50,7 @@ italics       | _italics_
 
 - 代码高亮
 
-``` java
+```java
 class Hello{
 
     pulblic void test(){

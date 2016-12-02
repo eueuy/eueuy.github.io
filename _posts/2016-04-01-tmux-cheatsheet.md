@@ -1,7 +1,7 @@
 ---
 
 yout: post
-title: tmux配置与使用
+title: tmux 配置与使用
 tags: tmux
 author: Liucheng Xu
 disqus: "y"
