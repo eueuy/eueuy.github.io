@@ -1,5 +1,6 @@
 title:            Liucheng Xu
 description:      It is our light, not our darkness that frightens us.
+baseurl:          /blog-cn
 url:              # Site url.
 github_card:      # you need to replace the current github-card. ( leave blank if unwanted. )
 google_analytics: UA-73260325-1  # (leave blank if unwanted )

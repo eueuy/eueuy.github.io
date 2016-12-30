@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 终极vim配置：space-vim
+title: 终极 vim 配置：space-vim
 author: Liucheng Xu
 tags: vim
 disqus: "y"
@@ -10,19 +10,10 @@ published: true
 * TOC
 {:toc}
 
-[>>>> 终极 vim 配置  space-vim](https://github.com/liuchengxu/space-vim)
-==============
-
-
 <br />
-<div class="github-card" data-github="liuchengxu/space-vim" data-width="400" data-height="150" data-theme="default"></div>
+<div class="github-card center" data-github="liuchengxu/space-vim" data-width="400" data-height="150" data-theme="default"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 <br />
-
-![这里写图片描述](http://img.blog.csdn.net/20161201123649104)
-
-
-![screenshot](https://github.com/liuchengxu/space-vim/blob/master/doc/img/screenshot.png?raw=true)
 
 [spacemacs](https://github.com/syl20bnr/spacemacs) 可能已经成为 emacs 社区中 “唯我独尊”的配置，在 github 上有近万的 star， contributor 众多。它的 “社区驱动”(community-driven) 真的是很强大，贡献的人很多，很漂亮，也很强大。作为 emacs 长久以来的对家 vim, 如果也能有一个这样一个社区驱动的配置，相信也会给大家带来很多便利。
 
@@ -33,6 +24,8 @@ vim 社区中，虽有 [spf13-vim](https://github.com/spf13/spf13-vim), [k-vim](
 随着 vim8 的升级，也会有很多新的更好的插件诞生，比如我用来替代 [syntastic](https://github.com/vim-syntastic/syntastic) 的 [ale](https://github.com/w0rp/ale), ale 使用了异步特性，再也因为语法检查而拖慢速度了。spf13-vim 等的更新似乎不太跟得上步伐，或者说给我们“开箱即用”的选择性不太多。
 
 希望集体智慧能够给我们带来一个更好用的 vim 配置。
+
+![screenshot](https://github.com/liuchengxu/space-vim/blob/master/doc/img/screenshot.png?raw=true)
 
 ### 特色
 
@@ -108,7 +101,7 @@ Plug 'junegunn/vim-github-dashboard'
 
 - `config.vim` : 关于自己添加插件的相关配置放在这里即可。
 
-    如果 `private` 目录下没有 `packages.vim` 与 `config.vim`, 那么 space-vim 仅会加载默认的 Layer.
+如果 `private` 目录下没有 `packages.vim` 与 `config.vim`, 那么 space-vim 仅会加载默认的 Layer.
 
 ### TODO
 

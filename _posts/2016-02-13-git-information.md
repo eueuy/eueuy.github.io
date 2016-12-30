@@ -14,6 +14,12 @@ disqus: y
 
 [Pro git book](https://git-scm.com/book/zh/v2) 里面的内容应该是足够日常使用了，也是查阅的好地方。本文内容在其中应该都能够找到。
 
+## 如何写 commit message
+
+>Capitalized, short (50 chars or less) summary
+
+开头大写, 不超过 50 个字符的总结。
+
 ## git 常见场景下的用法
 
 ### 分支管理
@@ -113,5 +119,8 @@ git revert 是用一次新的commit来回滚之前的commit，git reset是直接
 
 3. reset 是在正常的commit历史中，删除了指定的commit，这时 HEAD 是向后移动了，而 revert 是在正常的commit历史中再commit一次，只不过是反向提交，他的 HEAD 是一直向前的.
 
-#### 参考资料
+
+[参考]
+
 - [git reset revert 回退回滚取消提交返回上一版本](http://yijiebuyi.com/blog/8f985d539566d0bf3b804df6be4e0c90.html)
+- [A Note About Git Commit Messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
