@@ -71,12 +71,14 @@ tmux使用C/S模型构建，主要包括以下单元模块：
 
 
 ### 配置文件
-最全面的文档当然是官方的manual page， [tmux.github.io](https://tmux.github.io/). 再推荐一个非常不错的tmux教程：[A Tmux crash course: tips and tweaks](http://tangosource.com/blog/a-tmux-crash-course-tips-and-tweaks/).
 
+最全面的文档当然是官方的manual page， [tmux.github.io](https://tmux.github.io/). 再推荐一个非常不错的tmux教程：[A Tmux crash course: tips and tweaks](http://tangosource.com/blog/a-tmux-crash-course-tips-and-tweaks/).
 
 如果在网上搜索的话你会发现大多的tmux配置文件都是大同小异. 在我的配置文件并没有像大多配置一样将tmux的前缀键(类似emacs)的前缀键重映射为`Ctrl+a`，而是选择了默认设置`Ctrl+b`. 另外在颜色选择上不同平台下渲染的效果不一样， 注意适应。
 
 [这里](https://github.com/liuchengxu/dotfiles/blob/master/tmux.conf)是我的tmux配置文件.
+
+![screenshot](/assets/img/blog/2016/04-01/screenshot.png)
 
 ## 开始tmux
 
