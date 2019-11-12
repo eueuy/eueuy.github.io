@@ -20,3 +20,5 @@ defaults:
           layout:    "post"
           disqus:    "y"
           author:    "Liucheng Xu"
+
+theme: jekyll-theme-cayman
