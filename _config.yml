@@ -1,4 +1,4 @@
-title:            Liucheng Xu
+title:            Yue Zhang
 description:      It is our light, not our darkness that frightens us.
 baseurl:          /blog-cn
 url:              # Site url.
@@ -19,6 +19,6 @@ defaults:
         values:
           layout:    "post"
           disqus:    "y"
-          author:    "Liucheng Xu"
+          author:    "yue zhang"
 
 theme: jekyll-theme-cayman
