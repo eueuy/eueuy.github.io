@@ -5,7 +5,7 @@ url:              # Site url.
 github_card:      # you need to replace the current github-card. ( leave blank if unwanted. )
 google_analytics: UA-73260325-1  # (leave blank if unwanted )
 disqus_shortname:                # disqus and duoshuo is an alternative option. ( leave blank if unwanted)
-duoshuo_shortname: liuchengxu
+duoshuo_shortname: yuezhang
 
 kramdown:
   input:    GFM
