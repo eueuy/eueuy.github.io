@@ -43,7 +43,7 @@ blockquote {
     font-family: "Linux Libertine",-apple-system,"Helvetica Neue",Helvetica,"Nimbus Sans L",Arial,"Liberation Sans","PingFang SC","Hiragino Sans GB","Source Han Sans CN","Source Han Sans SC","Microsoft YaHei","Wenquanyi Micro Hei","WenQuanYi Zen Hei","ST Heiti",SimHei,"WenQuanYi Zen Hei Sharp",sans-serif;
     border: 1px solid #ccc;
     padding: 5%;
-    width: 100%;
+    width: auto;
 }
 .main a {
     border-bottom: 1px dashed orange;
@@ -52,6 +52,32 @@ blockquote {
 .container{
     width: 70%;
 }
+
+
+.navbar-brand {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+    font-size: 100%;
+}
+
+.navbar-default {
+    background-image: none;
+    background-color: #fff;
+    box-shadow: none;
+    font-size: 100%;
+}
+
+.navbar-brand, .navbar-nav {
+    font-size: 24px;
+}
+
+body.mobile .navbar-brand {
+    font-size: 36px;
+}
+
+body.mobile .navbar-nav {
+    font-size: 36px;
+}
+
 
 a:hover{
     text-decoration: none;
