@@ -153,7 +153,7 @@ Focus 客户端会一次性把全部需要的信息采集到，包括 Span、Log
 
 在实现上客户端的整个处理步骤都是异步的，减轻对业务的影响。 优化方面手段主要是针对队列和序列化的优化、对消费线程唤醒的控制、以及严格控制内存和对象的使用，防止因为监控导致 GC。
 
-![](https://github.com/eueuy/eueuy.github.io/blob/master/_posts/sui-focus-apm10.png)
+![](/assets/img/blog/sui-focus-apm9.png)
 
 ## 总结
 事实上监控系统内的设计决策远不止这些，篇幅所限就不全部介绍了。最后我总结了一些在进行监控系统设计时的心得可以供大家参考：
