@@ -27,16 +27,8 @@
             {% if page.donate %}
               {% include donate.html %}
             {% endif %}
-            {% if site.disqus_shortname %}
-               {% include disqus.html %}
-            {% else if site.duoshuo_shortname %}
-               {% include duoshuo.html %}
-            {% endif %}
         </div>
         <div class="col-md-2">
-          {% if site.github_card  == 'y' %}
-          {% include github-card.html %}
-          {% endif %}
         </div>
       </div>
     </div>
