@@ -43,14 +43,12 @@ blockquote {
     font-family: "Linux Libertine",-apple-system,"Helvetica Neue",Helvetica,"Nimbus Sans L",Arial,"Liberation Sans","PingFang SC","Hiragino Sans GB","Source Han Sans CN","Source Han Sans SC","Microsoft YaHei","Wenquanyi Micro Hei","WenQuanYi Zen Hei","ST Heiti",SimHei,"WenQuanYi Zen Hei Sharp",sans-serif;
     border: 1px solid #ccc;
     padding: 5%;
-    width: 100%;
+    width: 90%;
 }
 .main a {
     border-bottom: 1px dashed orange;
 }
-.col-md-9 {
-    width: 100%;
-}
+
 a:hover{
     text-decoration: none;
     cursor: crosshair;
