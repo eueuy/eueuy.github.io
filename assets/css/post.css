@@ -49,6 +49,30 @@ blockquote {
     display: block;
 }
 
+.navbar-brand {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+    font-size: 100%;
+}
+
+.navbar-default {
+    background-image: none;
+    background-color: #fff;
+    box-shadow: none;
+    font-size: 100%;
+}
+
+.navbar-brand, .navbar-nav {
+    font-size: 24px;
+}
+
+body.mobile .navbar-brand {
+    font-size: 36px;
+}
+
+body.mobile .navbar-nav {
+    font-size: 36px;
+}
+
 #markdown-toc {
     font-size: 10pt;
     line-height: 14pt;
