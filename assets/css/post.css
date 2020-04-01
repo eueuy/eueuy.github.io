@@ -47,6 +47,9 @@ blockquote {
 .main a {
     border-bottom: 1px dashed orange;
 }
+.col-md-9 {
+    width: 100%;
+}
 a:hover{
     text-decoration: none;
     cursor: crosshair;
