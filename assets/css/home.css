@@ -26,6 +26,11 @@ body.mobile {
     font-size: 100%;
 }
 
+body.mobile .title a {
+    display: block;
+    font-size: medium;
+}
+
 .title a {
     display: block;
     font-size: xx-large;
