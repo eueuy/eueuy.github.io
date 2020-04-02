@@ -99,35 +99,6 @@ body.mobile .navbar-nav {
     color: #567;
 }
 
-.pages {
-  width: 90%;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  line-height: 200%;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  background-color: #f5f2f0;
-  background-size: cover;
-}
-.pages p {
-    color: #555;
-    font-weight: 600;
-}
-.pages .previous:hover, .pages .next:hover{
-  background-color: #dbdbdb;
-  background-color: #e2e2e2;
-}
-
-kbd {
-  display: inline-block;
-  padding: 3px 5px;
-  font-size: 11px;
-  line-height: 10px;
-  color: #555;
-  vertical-align: middle;
-  background-color: #fcfcfc;
-  border: solid 1px #ccc;
-  border-bottom-color: #bbb;
-  border-radius: 3px;
-  box-shadow: inset 0 -1px 0 #bbb;
+body.mobile div.outer {
+    margin: 4% 2% 2% 2%;
 }
