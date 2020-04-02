@@ -1,11 +1,9 @@
 title:            Yue Zhang
 description:      It is our light, not our darkness that frightens us.
 baseurl:          /blog-cn
-url:              # Site url.
+url:              yuezhang.org
 github_card:      # you need to replace the current github-card. ( leave blank if unwanted. )
-google_analytics: UA-73260325-1  # (leave blank if unwanted )
-disqus_shortname:                # disqus and duoshuo is an alternative option. ( leave blank if unwanted)
-duoshuo_shortname: yuezhang
+google_analytics: # (leave blank if unwanted )
 
 kramdown:
   input:    GFM
