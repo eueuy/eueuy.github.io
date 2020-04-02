@@ -17,6 +17,10 @@ body.mobile {
     font-size: 36px;
 }
 
+.pull-right {
+    float: none;
+}
+
 .navbar-brand {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
     font-size: 100%;
