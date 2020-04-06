@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 谈谈我的“精进之法”
+title: 谈谈程序员的“精进之法”
 author: zhangyue
 ---
 
