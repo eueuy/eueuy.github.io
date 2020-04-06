@@ -3,12 +3,18 @@ layout: post
 title: 我是如何Solve Problem的
 author: zhangyue
 ---
+> 这个世界最终是程序员的世界，因为程序员总是用一套办法去解决所有问题，而其他人基本靠蒙。
 
+> Everyone in this country should learn to program a computer, because it teaches you to think.” — Steve Jobs
+
+## Why need a Framework
 本文是我的工作思路总结， 提炼了我在遇到问题时，如何思考和设计一个计算机程序来解决它。将这个过程明确并形成一个框架，有助于反思、训练和主动优化这个过程。
 
 * 递归思想——无论遇到多复杂的问题，将这个框架进行递归，就可以逐步解决各个层面的问题，最终解决任意问题。
 * 不仅是程序——替换解决问题一节，这个框架可以解决任何问题
 * 不断训练——通过玩游戏、做算法题、或是构造点什么， 不断的使用这个框架，练的越多就越强。
+
+## Problem Solve Framework
 
 下面就是这个框架：
 
