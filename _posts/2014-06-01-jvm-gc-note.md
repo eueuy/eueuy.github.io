@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 非阻塞同步 Lock-Free
+title: Java GC
 author: zhangyue
 ---
 
