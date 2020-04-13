@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 分布式一致性模型导论
+title: “分布式一致性模型” 导论
 author: zhangyue
 ---
 
