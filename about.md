@@ -1,8 +1,7 @@
 ---
 layout: about
-title: Yue Zhang
+title: About Yue Zhang
 ---
 
-# one
-
-# two
+ > mail : yueue@qq.com
+ > wechat : eueuyt
