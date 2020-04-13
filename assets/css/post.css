@@ -1,7 +1,7 @@
 H1, H2, H3, H4, H5, H6 {
     color: #666;
     line-height: 2.0;
-    font-family: "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    /*font-family: "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;*/
     font-weight: 500;
 }
 H2 {
@@ -21,9 +21,6 @@ H4 {
     border-bottom: 1px LightGrey solid;
 }
 
-nav {
-    font-family: STFangSong, 'Times New Roman';
-}
 
 p code, ul code, li code, ul li code, li ul code {
     border: solid 1px #d0d4d7;
@@ -33,26 +30,26 @@ p code, ul code, li code, ul li code, li ul code {
 }
 
 blockquote {
-    background-color: #eee;
     border-left: 5px solid #ddd;
+    font-style:italic;
 }
 
-body.mobile .inner{
-    font-family: "Linux Libertine",-apple-system,"Helvetica Neue",Helvetica,"Nimbus Sans L",Arial,"Liberation Sans","PingFang SC","Hiragino Sans GB","Source Han Sans CN","Source Han Sans SC","Microsoft YaHei","Wenquanyi Micro Hei","WenQuanYi Zen Hei","ST Heiti",SimHei,"WenQuanYi Zen Hei Sharp",sans-serif;
-    font-size: 18px;
-    margin: 1% 0% 1%;
-    padding: 4% 8% 4% 8%;
-    border: 1px solid LightGrey;
-    box-sizing: border-box;
-    display: block;
-}
+/*body.mobile .inner{*/
+/*    font-family: "Linux Libertine",-apple-system,"Helvetica Neue",Helvetica,"Nimbus Sans L",Arial,"Liberation Sans","PingFang SC","Hiragino Sans GB","Source Han Sans CN","Source Han Sans SC","Microsoft YaHei","Wenquanyi Micro Hei","WenQuanYi Zen Hei","ST Heiti",SimHei,"WenQuanYi Zen Hei Sharp",sans-serif;*/
+/*    font-size: 18px;*/
+/*    margin: 1% 0% 1%;*/
+/*    padding: 4% 8% 4% 8%;*/
+/*    border: 1px solid LightGrey;*/
+/*    box-sizing: border-box;*/
+/*    display: block;*/
+/*}*/
 
 body{
     font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
     font-size: 20px;
 }
 
-P, li {
+p, li {
     line-height: 1.8;
 }
 
@@ -80,42 +77,19 @@ p {
      border-bottom: 3px LightGrey solid;
 }
 
-.navbar-brand {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
-    font-size: 100%;
-}
 
-.navbar-default {
-    background-image: none;
-    background-color: #fff;
-    box-shadow: none;
-    font-size: 100%;
-}
-
-.navbar-brand, .navbar-nav {
-    font-size: 24px;
-}
-
-body.mobile .navbar-brand {
-    font-size: 36px;
-}
-
-body.mobile .navbar-nav {
-    font-size: 36px;
-}
-
-#markdown-toc {
-    font-size: 10pt;
-    line-height: 14pt;
-    overflow: auto;
-    border-left: 6px solid #c05b4d ;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-#markdown-toc a{
-    border: none;
-    color: #567;
-}
+/*#markdown-toc {*/
+/*    font-size: 10pt;*/
+/*    line-height: 14pt;*/
+/*    overflow: auto;*/
+/*    border-left: 6px solid #c05b4d ;*/
+/*    margin-top: 20px;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+/*#markdown-toc a{*/
+/*    border: none;*/
+/*    color: #567;*/
+/*}*/
 
 body.mobile div.outer {
     margin: 4% 2% 2% 2%;
