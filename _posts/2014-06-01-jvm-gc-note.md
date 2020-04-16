@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java GC
+title: Java GC 那些事儿
 author: zhangyue
 ---
 
@@ -79,7 +79,7 @@ Java收集器间的配合关系
 * 服务端重计算吞吐量的引用: Parallel Scavenge + Parallel Old
 * 单CPU或Client: Serial + Serial Old
 
-## GC优化思路
+## 我的GC优化思路
 > 过早优化是万恶之源
 > GC tuning is the last task to be done.
 
