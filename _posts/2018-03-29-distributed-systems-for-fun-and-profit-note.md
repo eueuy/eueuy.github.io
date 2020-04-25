@@ -3,7 +3,6 @@ layout: post
 title: 《Distributed Systems for fun and profit》笔记
 author: zhangyue
 ---
-## Distributed Systems for fun and profit
 
 ## 分布式系统的高层概念 Distributed systems at high level
 * 分布式系统
