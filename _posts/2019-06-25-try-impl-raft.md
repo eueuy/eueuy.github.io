@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 6.824Lab:记录我实现Raft的过程
+title: 自动动手实现Raft ：实现Raft的过程记录
 author: zhangyue
 ---
 ## 实现一个raft 算法的思路
