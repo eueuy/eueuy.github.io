@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 自动动手实现Raft ：实现Raft的过程记录
+title: MIT 6.824 Lab ：实现Raft协议的过程记录
 author: zhangyue
 ---
 ## 实现一个raft 算法的思路
