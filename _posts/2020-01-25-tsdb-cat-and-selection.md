@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 对时间序列数据库的分类以及选型思路
+title: 对时间序列数据库的分类及选型
 author: zhangyue
 ---
 
