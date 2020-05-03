@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 对时间序列数据库的分类及选型
+title: 两种时序数据库的实现思路及选型
 author: zhangyue
 ---
 
@@ -34,6 +34,7 @@ author: zhangyue
     * 典型实现：
         * ElasticSearch
         * Druid.io
+        
 ## 两种类型的技术思路对比
 
 以ES和OpenTSDB举例
