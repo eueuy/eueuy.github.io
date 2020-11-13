@@ -123,6 +123,8 @@ PRAM一致性(Pipeline Random Access Memory)完全等同于读你的写、单调
     * 以数据为中心一致性Data-Centric Consistency
     * 以用户为中心的一致性Client-Centric Consistency
     
+希望本文可以为你理清一致性问题这个领域，为今后的学习建立一个大纲。
+
 本文是作者根据自己做数据处理系统时的经验进行的总结，不一定严谨，有错误的地方欢迎探讨。
 
 
