@@ -86,9 +86,6 @@ first of all，我们第一个要区分的就是「共识(Consensus)」和「一
 
 很明显，系统提供者的一致性模型会从根本上影响使用者的一致性模型。因此提供者视角的模型通常比使用者的模型更强。
 
-通常大家将 Linearizablity 和 Sequentail 归为强一致性，因为他们保证了顺序性（虽然Sequentail牺牲了实时性）。 而将以客户为中心的一致性模型 (Client-centric consistency models)和因果一致性 (Causal consistency) 归为弱一致性。
-
-
 ## 副本一致性的相关模型：以数据为中心部分(Data-Centric)
 以数据为中心的模型期望提供这样一种保证：多个进程的读写操作的结果可以立即复制到其它副本。
 ![](/assets/img/blog/2018-05-17-consistency-model4.png)
@@ -112,7 +109,9 @@ PRAM一致性(Pipeline Random Access Memory)完全等同于读你的写、单调
 
 ## 对一致性模型的归类
 
-有同学可能要问：“我还听过弱一致性(weak consistency) 、强一致性（strong consistency）和 最终一致性（eventually consistency）的说法？”  实际上这种叫法并不是指具体的一致性模型，它只是一个归类概念，是很笼统的说法。通常我们将Strict Serializable、Serializable和Linearizable 归类为强一致性；将 Client-Centric Consistency 归类为弱一致性；将放松了实时性保证的模型归类为最终一致性。
+有同学可能要问：“我还听过弱一致性(weak consistency) 、强一致性（strong consistency）和 最终一致性（eventually consistency）的说法？”  实际上这种叫法并不是指具体的一致性模型，它只是一个归类概念，是很笼统的说法。
+
+通常大家将 Linearizablity 和 Sequentail 归为强一致性，因为他们保证了顺序性（虽然Sequentail牺牲了实时性）。 而将以客户为中心的一致性模型 (Client-centric consistency models)和因果一致性 (Causal consistency) 归为弱一致性。将所有放松了实时性保证的模型归类为最终一致性。
 
 ## 结语
 最后，我们对「一致性」的关系做个总结
