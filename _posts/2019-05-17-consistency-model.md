@@ -1,6 +1,6 @@
 ---
 layout: post
-title: “分布式一致性模型” 导论
+title: 理解分布式系统中的一致性模型
 author: zhangyue
 ---
 ## 引言
